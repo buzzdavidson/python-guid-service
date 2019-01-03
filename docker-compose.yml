@@ -1,8 +1,8 @@
 version: "3.7"
 services:
-  rabbit-slave:
+  guid-service:
     image: buzzdavidson/python-guid-service:latest
     ports:
-    - "8000:8192"
+    - "8192:8000"
     deploy:
       mode: global
