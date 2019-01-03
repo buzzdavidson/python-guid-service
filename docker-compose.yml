@@ -4,5 +4,4 @@ services:
     image: buzzdavidson/python-guid-service:latest
     ports:
     - "8192:8000"
-    deploy:
-      mode: global
+
